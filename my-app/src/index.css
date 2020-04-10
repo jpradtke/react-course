@@ -19,10 +19,7 @@ margin: 0;
     margin-left: 25px;
   
 }
-.body
-{
-  
-}
+
 .header
 {
     background-color: aquamarine;
@@ -33,4 +30,29 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.gameDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.gameButton {
+    border: 1px solid lightgray;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 4px;   
+}
+
+.gameButton:hover {
+    cursor: pointer;
+}
+
+.gameButton:focus {
+    outline:0;
 }
